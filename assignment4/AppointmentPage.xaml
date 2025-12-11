@@ -1,0 +1,21 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MedicalChartApp.Pages.AppointmentPage"
+             Title="Appointments">
+
+    <StackLayout Padding="10" Spacing="10">
+        <CollectionView x:Name="AppointmentList" SelectionMode="Single"
+                        SelectionChanged="OnAppointmentSelected">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BorderColor="Gray" Padding="5" Margin="5">
+                        <Label Text="{Binding StartTime, StringFormat='{0:MM/dd/yyyy HH:mm}'}"/>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Text="Add Appointment" Clicked="OnAddAppointmentClicked"/>
+        <Button Text="Delete Appointment" Clicked="OnDeleteAppointmentClicked"/>
+    </StackLayout>
+</ContentPage>

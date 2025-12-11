@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/yngpurp/programming/class/COP4870/assignment2/MedicalChartApp/obj/Debug/net9.0-maccatalyst/maccatalyst-x64/Entitlements.xcent /Users/yngpurp/programming/class/COP4870/assignment2/MedicalChartApp/bin/Debug/net9.0-maccatalyst/maccatalyst-x64/MedicalChartApp.app

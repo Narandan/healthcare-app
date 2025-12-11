@@ -1,0 +1,22 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MedicalChartApp.Pages.PhysicianPage"
+             Title="Physicians">
+
+    <StackLayout Padding="10" Spacing="10">
+        <CollectionView x:Name="PhysicianList" SelectionMode="Single"
+                        SelectionChanged="OnPhysicianSelected">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BorderColor="Gray" Padding="5" Margin="5">
+                        <Label Text="{Binding Name}" FontSize="18"/>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Text="Add Physician" Clicked="OnAddPhysicianClicked"/>
+        <Button Text="Edit Physician" Clicked="OnEditPhysicianClicked"/>
+        <Button Text="Delete Physician" Clicked="OnDeletePhysicianClicked"/>
+    </StackLayout>
+</ContentPage>
