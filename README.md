@@ -27,12 +27,10 @@ This includes a console application, API development, MAUI UI work, and final pe
 
 ## 🎥 Final Video Submission
 
-Video Link: *[Add your video link here]*
+Video Link: https://youtu.be/_L2LpnrLwo0
 
 The video demonstrates:
 
-- Assignment 1 running in console  
-- Assignment 2 API tested via Postman  
 - Assignment 5 persistence tested with file creation + server restart  
 - Explanation of Assignment 4 and grading justification  
 
