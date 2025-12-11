@@ -30,6 +30,7 @@ This includes a console application, API development, MAUI UI work, and final pe
 Video Link: *[Add your video link here]*
 
 The video demonstrates:
+
 - Assignment 1 running in console  
 - Assignment 2 API tested via Postman  
 - Assignment 5 persistence tested with file creation + server restart  
@@ -46,10 +47,7 @@ However, after updating my system to **.NET 10**, the MAUI workloads and platfor
 
 The current error:
 
-The Android SDK directory could not be found.
-
-
-occurs because .NET 10 removed or invalidated the MAUI platform workloads that existed under .NET 7/8/9. Reinstalling these workloads and SDKs requires several gigabytes of downloads and extensive setup, which is not feasible within the time constraints of this submission.
+The Android SDK directory could not be found occurs because .NET 10 removed or invalidated the MAUI platform workloads that existed under .NET 7/8/9. Reinstalling these workloads and SDKs requires several gigabytes of downloads and extensive setup, which is not feasible within the time constraints of this submission.
 
 Despite this, **all required code for Assignment 4 is included**, and the project structure and logic match the assignment requirements. Since **Assignment 5 (Persistence)** is fully implemented and represents the highest-level requirement for an A, the demonstration focuses on Assignments 1, 2, and 5.
 
